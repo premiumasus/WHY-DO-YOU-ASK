@@ -935,21 +935,3 @@
 
 </body>
 </html>
-AudioEl.volume * 100) + '%';
-  }
-
-  function volumeUp() {
-    bgAudioEl.volume = Math.min(1, Math.round((bgAudioEl.volume + 0.1) * 10) / 10);
-    refreshVolumeLabel();
-  }
-
-  function volumeDown() {
-    bgAudioEl.volume = Math.max(0, Math.round((bgAudioEl.volume - 0.1) * 10) / 10);
-    refreshVolumeLabel();
-  }
-
-  renderPublicPage();
-</script>
-
-</body>
-</html>
